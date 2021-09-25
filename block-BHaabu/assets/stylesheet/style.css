@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+/* general */
+body{
+    line-height: 1.5;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../media/nature-3082832_1920.jpg), no-repeat;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+/* box */
+.header{
+    margin: 20px 0;
+    color: white;
+}
+.header h1{
+    font-size: 33px;
+    
+}
+/* box */
+.box1{
+    height: 240px;
+    width: 360px;
+    border-radius: 3px;
+}
+.color1{
+     background-color: rgb(255,2,72);
+}
+.color2{
+    background: linear-gradient( to right ,rgb(40,42,35),rgb(255,2,72));
+}
+.color3{
+    background: radial-gradient( rgb(255,2,72),rgb(40,42,35));
+}
+.text{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 100px;
+}
+/* image */
+.image{
+    background: linear-gradient(to top left ,rgba(173, 46, 15, 0.7),rgba(112,116,103,0.4)), url(../media/city-407703_1920.jpg) no-repeat;
+    height: 450px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 32px;
+    border-radius: 8px;
+    /* margin: 30px 30px; */
+}
+.text-image{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 200px;
+}
+
